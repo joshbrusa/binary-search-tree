@@ -1,17 +1,16 @@
 package src;
 
 /**
- * The node of our tree. It can be any data, but for here we will just use an
- * int.
+ * The node of our tree. Has a key and a pointer to the left and right.
  */
 public class Node {
     Node left;
     Node right;
-    int data;
+    int key;
 
-    public Node(int data) {
+    public Node(int key) {
         this.left = null;
         this.right = null;
-        this.data = data;
+        this.key = key;
     }
 }
