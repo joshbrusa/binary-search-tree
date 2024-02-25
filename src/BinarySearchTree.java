@@ -131,10 +131,17 @@ public class BinarySearchTree {
         }
     }
 
+    /**
+     * Prints the tree in order.
+     */
     public void print() {
         printRecursively(root);
     }
 
+    /**
+     * Prints recursively in order. Pre order would just be to print first,
+     * and post order would be to print after.
+     */
     private void printRecursively(Node node) {
         // if the node is null return
         if (node == null) {
